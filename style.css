@@ -1,11 +1,13 @@
 
-
 body{
         padding: 0;
         margin: 0;
         background-color: #000000;
         color: #ffffff;
     
+}
+h1{
+    text-align: center;
 }
 
 ul {
@@ -75,5 +77,20 @@ footer p{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding-bottom: 10%;
+    padding-bottom: 3%;
+}
+
+.items{
+    padding-bottom: 20px;
+}
+.btn{
+    background-color: whitesmoke;
+    border: 2px solid rgb(45, 43, 43);
+    padding: 5px;
+
+}
+
+.items a{
+    text-decoration: none;
+    color: #ffffff;
 }
